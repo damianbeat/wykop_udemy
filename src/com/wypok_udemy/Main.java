@@ -25,7 +25,7 @@ public class Main {
         driver.get("https://wykop.pl");
         driver.findElement(By.xpath("//*[@id=\"nav\"]/div/ul[2]/li[4]/a")).click();
         driver.findElement(By.xpath("//*[@id=\"text1\"]")).sendKeys("damianbeat");
-        driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("Szpadyzornia1058");
+        driver.findElement(By.xpath("//*[@id=\"text2\"]")).sendKeys("");
         driver.findElement(By.xpath("//*[@id=\"site\"]/div/div[2]/div/div/div/div/form/div/fieldset[2]/input[2]")).click();
 
         //driver.findElement(By.xpath("//*[@id=\"udemy\"]/div[1]/div[2]/div[4]/div[3]/div/require-auth/div/a")).click();
