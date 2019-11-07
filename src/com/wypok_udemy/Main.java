@@ -18,7 +18,7 @@ public class Main {
         driver.findElement(By.xpath("//*[contains(text(), 'Zaloguj się')]")).click();
         Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@id=\"id_email\"]")).sendKeys("damianbeat@gmail.com");
-        driver.findElement(By.xpath("//*[@id=\"id_password\"]")).sendKeys("Szpadyzornia1058!");
+        driver.findElement(By.xpath("//*[@id=\"id_password\"]")).sendKeys("");
         driver.findElement(By.xpath("//*[@id=\"submit-id-submit\"]")).click();
         Thread.sleep(5000);
 
